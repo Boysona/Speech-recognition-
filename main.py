@@ -117,11 +117,11 @@ def set_bot_info():
     ]
     bot.set_my_commands(commands)
 
-    bot.set_my_short_description(
+    #bot.set_my_short_description(
         "Got media files? Let this free bot transcribe, summarize, and translate them in seconds!"
     )
 
-    bot.set_my_description(
+    #bot.set_my_description(
         """This bot quickly transcribes, summarizes, and translates voice messages, audio files, and videos for free!
 
 🔥 Enjoy free usage and start now! 👌🏻"""
