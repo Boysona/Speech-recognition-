@@ -22,7 +22,7 @@ from io import BytesIO  # In-memory processing
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- BOT CONFIGURATION ---
-TOKEN = "7790991731:AAHZks7W-iwp6pcKD56eOeq3wduPjAiwow"  # Replace with your actual bot token
+TOKEN = "7735540562:AAG6WdHg9pV9slR6vwtg3Tp3XyjpQeJzre0"  # Replace with your actual bot token
 ADMIN_ID = 5978150981  # Replace with your actual Admin ID
 WEBHOOK_URL = "https://speech-recognition-6i0c.onrender.com"  # Replace with your actual Render URL
 
