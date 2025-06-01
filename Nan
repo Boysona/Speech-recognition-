@@ -1,0 +1,13 @@
+pyTelegramBotAPI
+Flask
+faster-whisper
+yt-dlp
+Pillow
+requests
+aiohttp
+aiofiles
+msspeech
+click
+pydub
+imageio-ffmpeg
+SpeechRecognition
