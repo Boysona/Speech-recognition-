@@ -345,11 +345,10 @@ def set_bot_info():
     commands = [
         telebot.types.BotCommand("start", "👋Get a welcome message and info"),
         telebot.types.BotCommand("status", "📊View Bot statistics"),
-        telebot.types.BotCommand("help", "❓Get information on how to use the bot"),
         telebot.types.BotCommand("language", "🌐Change preferred language for translate/summarize"),
         telebot.types.BotCommand("media_language", "📝Set language for media transcription"),
         telebot.types.BotCommand("text_to_speech", "🗣️Convert text to speech"), # NEW COMMAND
-        telebot.types.BotCommand("privacy", "👮Privacy Notice"),
+        
     ]
     bot.set_my_commands(commands)
 
@@ -442,7 +441,7 @@ def start_handler(message):
             f"""👋🏻 Salom {display_name}!
 I'm Media To text Bot. I help you save time by transcribing and summarizing voice messages, audio messages, and video notes.
 I can also convert your text into speech!
-Simply send or forward a message to me. Send /help for more information.
+Simply send or forward a message to me. Send
 """
         )
 
