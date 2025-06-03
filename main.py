@@ -31,7 +31,7 @@ ADMIN_ID = 5978150981  # Replace with your actual Admin ID
 WEBHOOK_URL = "https://speech-recognition-6i0c.onrender.com"
 
 # --- REQUIRED CHANNEL CONFIGURATION ---
-REQUIRED_CHANNEL = "@YourChannelUsername" # Replace with your actual channel username (e.g., @MyBotOfficialChannel)
+REQUIRED_CHANNEL = "@transcriberbo" # Replace with your actual channel username (e.g., @MyBotOfficialChannel)
 
 bot = telebot.TeleBot(TOKEN, threaded=True)
 app = Flask(__name__)
