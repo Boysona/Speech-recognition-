@@ -25,7 +25,7 @@ from msspeech import MSSpeech, MSSpeechError
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- BOT CONFIGURATION (Using Media Transcriber Bot's Token and Webhook) ---
-TOKEN = "7790991731:AAHZks7W-iwp6pcKD56eOeq3wduPjAiwow"  # Replace with your actual bot token
+TOKEN = "8114722716:AAHayxlSflH42TzI7ofnaWU99dMwc4NXt8Q"  # Replace with your actual bot token
 ADMIN_ID = 5978150981  # Replace with your actual Admin ID
 # Webhook URL - Replace with your actual Render URL
 WEBHOOK_URL = "https://speech-recognition-6i0c.onrender.com"
