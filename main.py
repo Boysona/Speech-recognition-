@@ -499,7 +499,7 @@ def start_handler(message):
             f"""👋🏻 Salaam {display_name}!
 I’m Media To Text Bot. I help you save time by transcribing and summarizing voice messages, audio files, and video notes.
 I can also convert your text into speech!
-Simply send or forward a message to me. Send
+Simply send or forward a message to me
 """
         )
 
