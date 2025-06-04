@@ -296,7 +296,7 @@ TTS_VOICES_BY_LANGUAGE = {
 # For Render, 'int8' is usually better for CPU-only environments.
 # If you have a GPU on Render (unlikely for free tiers), you can use 'float16'.
 try:
-    WHISPER_MODEL = WhisperModel("small", device="cpu", compute_type="int8")
+    WHISPER_MODEL = WhisperModel("tiny", device="cpu", compute_type="int8")
     logging.info("FasterWhisper 'small' model loaded successfully.")
 except Exception as e:
     logging.error(f"Failed to load FasterWhisper model: {e}")
