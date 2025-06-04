@@ -25,11 +25,11 @@ from msspeech import MSSpeech, MSSpeechError
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- BOT CONFIGURATION (Using Environment Variables) ---
-TOKEN = os.environ.get("BOT_TOKEN")  # Fetch from environment variable
+TOKEN = os.environ.get("7790991731:AAH4rt8He_PABDa28xgcY3dIQwmtuQD-qiM")  # Fetch from environment variable
 ADMIN_ID = 5978150981  # Replace with your actual Admin ID (can also be an env var)
 
 # Get the webhook URL dynamically from Render's environment variable
-WEBHOOK_URL = f"https://{os.environ.get('RENDER_EXTERNAL_HOSTNAME')}" if os.environ.get('RENDER_EXTERNAL_HOSTNAME') else None
+WEBHOOK_URL = f"https://{os.environ.get('https://speech-recognition-9j3f.onrender.com')}" if os.environ.get('RENDER_EXTERNAL_HOSTNAME') else None
 
 if not TOKEN:
     logging.error("BOT_TOKEN environment variable not set. Exiting.")
@@ -334,7 +334,7 @@ bot_start_time = datetime.now()
 admin_uptime_message = {}
 admin_uptime_lock = threading.Lock()  # To prevent race conditions
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")  # Fetch from environment variable
+GEMINI_API_KEY = os.environ.get("AIzaSyAto78yGVZobxOwPXnl8wCE9ZW8Do2R8HA")  # Fetch from environment variable
 if not GEMINI_API_KEY:
     logging.error("GEMINI_API_KEY environment variable not set. Gemini features might not work.")
 
