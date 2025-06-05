@@ -29,7 +29,7 @@ TOKEN = "7790991731:AAH4rt8He_PABDa28xgcY3dIQwmtuQD-qiM"  # Your bot token (hard
 ADMIN_ID = 5978150981  # Replace with your actual Admin ID
 
 # --- WEBHOOK URL (Hard‑coded domain) ---
-WEBHOOK_URL = "https://speech-recognition-9j3f.onrender.com"  # Your Render‑hosted domain
+WEBHOOK_URL = "https://speech-recognition-9cyh.onrender.com"  # Your Render‑hosted domain
 
 # Remove checks for missing environment variables, since we're hard‑coding now.
 
