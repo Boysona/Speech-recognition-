@@ -11,3 +11,4 @@ click
 pydub
 imageio-ffmpeg
 SpeechRecognition
+firebase-admin
