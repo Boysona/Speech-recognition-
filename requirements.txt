@@ -12,3 +12,4 @@ pydub
 imageio-ffmpeg
 SpeechRecognition
 firebase-admin
+pytesseract
