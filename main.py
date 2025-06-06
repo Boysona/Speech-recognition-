@@ -457,8 +457,8 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        """😓Sorry …
-🔰 First join the channel @transcriberbo to use this bot.""",
+        "😓Sorry …
+🔰 First join the channel @transcriberbo to use this bot.",
         reply_markup=markup,
         disable_web_page_preview=True
     )
