@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 TOKEN = "7790991731:AAH4rt8He_PABDa28xgcY3dIQwmtuQD-qiM"  # Replace with your actual bot token
 ADMIN_ID = 5978150981  # Replace with your actual Admin ID
 # Webhook URL - Replace with your actual Render URL
-WEBHOOK_URL = "https://speech-recognition-9cyh.onrender.com"
+WEBHOOK_URL = "https://speech-recognition-9j3f.onrender.com"
 
 # --- REQUIRED CHANNEL CONFIGURATION ---
 REQUIRED_CHANNEL = "@transcriberbo"  # Replace with your actual channel username
