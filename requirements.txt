@@ -13,3 +13,4 @@ imageio-ffmpeg
 SpeechRecognition
 firebase-admin
 pytesseract
+pyacoustid
