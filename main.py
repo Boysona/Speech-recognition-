@@ -449,7 +449,7 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        "😓Sorry …\n🔰 First join the channel @transcriberbo ‼️ After joining, come back to continue using the bot.",
+        "😓Sorry …\n🔰 To continue using this bot next time First join the channel @transcriberbo ‼️ After joining, come back to continue using the bot.",
         reply_markup=markup,
         disable_web_page_preview=True
     )
