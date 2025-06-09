@@ -373,11 +373,11 @@ admin_state = {}
 
 def set_bot_info():
     commands = [
-        telebot.types.BotCommand("start", "👋Get a welcome message and info"),
-        telebot.types.BotCommand("status", "📊View Bot statistics"),
-        telebot.types.BotCommand("language", "🌐Change preferred language for translate/summarize"),
-        telebot.types.BotCommand("media_language", "📝Set language for media transcription"),
-        telebot.types.BotCommand("text_to_speech", "🗣️Convert text to speech"),
+        
+        telebot.types.BotCommand("status", "View Bot statistics"),
+        telebot.types.BotCommand("language", "Change preferred language for translate/summarize"),
+        telebot.types.BotCommand("media_language", "Set language for media transcription"),
+        telebot.types.BotCommand("text_to_speech", "Convert text to speech"),
     ]
     bot.set_my_commands(commands)
 
