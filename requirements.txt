@@ -1,4 +1,4 @@
-pyTelegramBotAPI
+
 Flask
 faster-whisper
 yt-dlp
